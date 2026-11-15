@@ -4,7 +4,7 @@
 
 ## Build Setup
 
-bash grab.sh
+bash grab.sh  # fetch runtime deps
 
 ``` bash
 # install dependencies
