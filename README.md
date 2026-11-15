@@ -4,6 +4,8 @@
 
 ## Build Setup
 
+bash grab.sh
+
 ``` bash
 # install dependencies
 npm install
