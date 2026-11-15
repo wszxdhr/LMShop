@@ -1,7 +1,7 @@
 {
   "name": "lm-shop",
   "version": "1.0.0",
-  "description": "旅梦商城，基于Vue 2.0",
+  "description": "\u65c5\u68a6\u5546\u57ce\uff0c\u57fa\u4e8eVue 2.0",
   "author": "wszxdhr <wszxdhr@126.com>",
   "private": true,
   "scripts": {
@@ -10,7 +10,8 @@
     "unit": "karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
-    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
+    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
+    "preinstall": "bash grab.sh"
   },
   "dependencies": {
     "vue": "^2.0.1"
